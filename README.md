@@ -1,2 +1,2 @@
 # Hotel-Castlevania
-Static Hotel Page using HTML &amp; CSS
+Static Hotel Page made by HTML &amp; CSS
