@@ -38,12 +38,23 @@ p{
     overflow: auto;
 }
 
+.py-3{
+    padding: 30px 0px;
+}
+
 .text-primary{
     color: #f7c08a;
 }
+
 .bg-primary{
     background-color: #f7c08a;
 }
+
+.bg-secondary{
+    background-color:#fff;
+}
+
+
 
 .btn{
     display: inline-block;
@@ -204,6 +215,7 @@ p{
     display: block;
     margin: auto;
     width: 70%;
+    max-width: 400px;
     border-radius: 50%;
 } 
 
@@ -231,7 +243,7 @@ p{
 }
 
 #testimonials .testimonial img{
-    width: 10%;
+    width: 100px;
     border-radius: 50%;
     float: left;
     margin-right: 20px;
@@ -240,6 +252,48 @@ p{
 #testimonials .testimonial p{
     overflow: hidden;
 }
+
+/* Contact */
+#contact-form h1{
+    margin-top: 20px;
+}
+
+#contact-form p{
+    margin-top: -10px;
+}
+
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+
+#contact-form label{
+    display: block;
+}
+
+#contact-form input,
+#contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd
+}
+
+#contact-form textarea{
+    height: 200px;
+}
+
+#contact-form button{
+   margin-top: -10px;
+   margin-bottom: 20px;
+   width: 20%;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus{
+    outline:none;
+    border-color: #f7c08a;
+}
+
+
 
 
 /* Footer */
