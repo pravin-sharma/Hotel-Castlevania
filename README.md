@@ -1,2 +1,2 @@
 # Hotel-Castlevania
-Static Non-Responsive Page made with HTML &amp; CSS
+A static hotel page made responsive using media queries
