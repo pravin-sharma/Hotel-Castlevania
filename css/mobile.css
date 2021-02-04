@@ -1,0 +1,105 @@
+/* nav bar */
+#navbar .container{
+    width: 100%;
+    padding: 0px;
+}
+
+#navbar #logo{
+    float: none;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#navbar ul, #navbar ul li{
+    float: none;
+}
+
+#navbar ul li a{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid rgba(116, 114, 114, 0.726);
+}
+
+#navbar ul li:last-child a{
+    border-bottom: none
+}
+
+#navbar ul li:first-child a{
+    border-top: 1px solid rgba(116, 114, 114, 0.726);
+}
+
+/* showcase */
+#showcase .showcase-content{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1em;
+}
+
+/* Home info */
+#home-info{
+    height: auto;
+}
+
+#home-info .info-img{
+    float: none;
+    display: none;
+}
+
+#home-info .info-content{
+    float: none;
+    width: 100%;
+    /* height: 100%; */
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+/* Boxes */
+.box{
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+#features .box h3{
+    padding-bottom: 0px;
+}
+
+
+/* About */
+.about-info .right-info,
+.about-info .left-info{
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+.about-info .left-info h1{
+    line-height: 2.5rem;
+}
+
+
+
+
+
+/* Contact Info */
+#contact-info .box{
+    border-bottom: 1px solid rgba(116, 114, 114, 0.151);
+}
+
+#contact-info .box h3{
+    padding-bottom: 0px;
+}
+
+#contact-info .box p{
+    margin-top: 0px;
+}

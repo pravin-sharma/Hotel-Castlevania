@@ -103,9 +103,10 @@ p{
    
 }
 
-#navbar h1{
+#navbar #logo{
     float: left;
     padding-top: 20px;
+    font-size: 2rem;
 }
 
 #navbar ul{
@@ -132,7 +133,7 @@ p{
 
 #showcase{
     background: url('/image/showcase.jpg') no-repeat center center/cover;
-    height: 600px;
+    height: auto;
     overflow: hidden;
 }
 
@@ -140,6 +141,7 @@ p{
     text-align: center;
     color: white;
     padding-top: 200px;
+    padding-bottom: 100px;
 }
 
 #showcase .showcase-content h1{
@@ -174,6 +176,7 @@ p{
 }
 
 /* Features */
+/* Boxes */
 
 .box{
     float: left;
@@ -195,16 +198,14 @@ p{
 .about-info .left-info{
     float: left;
     width: 50%;
+    
 }
 
 .about-info .left-info h1{
     font-size: 40px;
+    line-height: 2.5rem;
 }
 
-.about-info .right-info{
-    float: right;
-    width: 50%;
-}
 
 .about-info .right-info{
     float: right;
@@ -214,8 +215,10 @@ p{
 .about-info .right-info img{
     display: block;
     margin: auto;
+    /* width: 70%; */
     width: 70%;
-    max-width: 400px;
+    min-width: 200px;
+    max-width: 300px;
     border-radius: 50%;
 } 
 
@@ -291,6 +294,15 @@ p{
 #contact-form textarea:focus{
     outline:none;
     border-color: #f7c08a;
+}
+
+/* Contact Info */
+#contact-info .box h3{
+    padding-bottom: 0px;
+}
+
+#contact-info .box p{
+    margin-top: 0px;
 }
 
 
