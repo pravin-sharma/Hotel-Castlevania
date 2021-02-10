@@ -1,2 +1,2 @@
 # Hotel-Castlevania
-A static hotel page made responsive using floats & media queries
+A Responsive hotel website using css floats & media queries
